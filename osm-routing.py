@@ -11,8 +11,8 @@ def read_root():
 @app.get("/route")
 def get_route():
     # Define start and end lat/lon
-    start_latlon = (51.5074, -0.1278)  # Example: London
-    end_latlon = (51.5155, -0.1410)  # Example: Another London location
+    start_latlon = (51.448538, -0.355183)  # Example: London
+    end_latlon = (51.445235, -0.325506)  # Example: Another London location
 
     # Compute bounding box
     north = max(start_latlon[0], end_latlon[0])  # Maximum latitude
@@ -20,8 +20,14 @@ def get_route():
     east = max(start_latlon[1], end_latlon[1])   # Maximum longitude
     west = min(start_latlon[1], end_latlon[1])   # Minimum longitude
 
+    bbox = [west, south, east, north]
+
     # # Get drivable roads
-    G = ox.graph.graph_from_bbox([west, south, east, north], network_type="walk", simplify=True)
+    G = ox.graph.graph_from_bbox(bbox, network_type="all_public", simplify=True)
+
+    features = ox.features_from_bbox(bbox, { "leisure": "park" })
+
+    print(features)
 
     # Find the nearest nodes
     orig = ox.distance.nearest_nodes(G, start_latlon[1], start_latlon[0])
@@ -37,7 +43,7 @@ def get_route():
     # three positional arguments: the two endpoints of an edge and
     # the dictionary of edge attributes for that edge.
     # The function must return a number.
-    route = nx.shortest_path(G, source=orig, target=dest, weight="length")
+    route = ox.shortest_path(G, orig, dest, weight="length")
 
     # Convert node IDs to coordinates
     route_coords = [(G.nodes[node]['y'], G.nodes[node]['x']) for node in route]
