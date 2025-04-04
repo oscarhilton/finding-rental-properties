@@ -1,0 +1,123 @@
+{
+    "id": "suffragette",
+    "hex": "#5ba763",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Gospel Oak Rail Station",
+                    "lat": 51.555335,
+                    "lon": -0.15077,
+                    "lines": [
+                        "mildmay",
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Upper Holloway Rail Station",
+                    "lat": 51.563631,
+                    "lon": -0.129513,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Crouch Hill Rail Station",
+                    "lat": 51.571302,
+                    "lon": -0.117149,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Harringay Green Lanes Rail Station",
+                    "lat": 51.577182,
+                    "lon": -0.098144,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "South Tottenham Rail Station",
+                    "lat": 51.580372,
+                    "lon": -0.072103,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Blackhorse Road Rail Station",
+                    "lat": 51.586605,
+                    "lon": -0.041236,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Walthamstow Queens Road Rail Station",
+                    "lat": 51.581503,
+                    "lon": -0.023846,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Leyton Midland Road Rail Station",
+                    "lat": 51.569725,
+                    "lon": -0.008051,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Leytonstone High Road Rail Station",
+                    "lat": 51.563554,
+                    "lon": 0.008416,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Wanstead Park Rail Station",
+                    "lat": 51.551693,
+                    "lon": 0.026213,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Woodgrange Park Rail Station",
+                    "lat": 51.549264,
+                    "lon": 0.044423,
+                    "lines": [
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Barking Rail Station",
+                    "lat": 51.539495,
+                    "lon": 0.080903,
+                    "lines": [
+                        "c2c",
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Barking Riverside",
+                    "lat": 51.51953,
+                    "lon": 0.11596,
+                    "lines": [
+                        "suffragette"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.15077,51.555335],[-0.129513,51.563631],[-0.117149,51.571302],[-0.098144,51.577182],[-0.072103,51.580372],[-0.041236,51.586605],[-0.023846,51.581503],[-0.008051,51.569725],[0.008416,51.563554],[0.026213,51.551693],[0.044423,51.549264],[0.080903,51.539495],[0.11596,51.51953]]]"
+    ]
+}

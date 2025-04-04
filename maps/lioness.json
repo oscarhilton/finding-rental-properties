@@ -1,0 +1,175 @@
+{
+    "id": "lioness",
+    "hex": "#ef9600",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "London Euston Rail Station",
+                    "lat": 51.528136,
+                    "lon": -0.133924,
+                    "lines": [
+                        "avanti-west-coast",
+                        "lioness",
+                        "west-midlands-trains"
+                    ]
+                },
+                {
+                    "name": "South Hampstead Rail Station",
+                    "lat": 51.541432,
+                    "lon": -0.178878,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Kilburn High Road Rail Station",
+                    "lat": 51.537277,
+                    "lon": -0.192237,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Queens Park (London) Rail Station",
+                    "lat": 51.533966,
+                    "lon": -0.204985,
+                    "lines": [
+                        "lioness",
+                        "west-midlands-trains"
+                    ]
+                },
+                {
+                    "name": "Kensal Green Rail Station",
+                    "lat": 51.53054,
+                    "lon": -0.225088,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Willesden Junction Rail Station",
+                    "lat": 51.532497,
+                    "lon": -0.244548,
+                    "lines": [
+                        "lioness",
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Harlesden Rail Station",
+                    "lat": 51.536289,
+                    "lon": -0.257667,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Stonebridge Park Rail Station",
+                    "lat": 51.544111,
+                    "lon": -0.275828,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Wembley Central Rail Station",
+                    "lat": 51.552325,
+                    "lon": -0.296433,
+                    "lines": [
+                        "lioness",
+                        "west-midlands-trains"
+                    ]
+                },
+                {
+                    "name": "North Wembley Rail Station",
+                    "lat": 51.562596,
+                    "lon": -0.303984,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "South Kenton Rail Station",
+                    "lat": 51.570214,
+                    "lon": -0.308462,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Kenton Rail Station",
+                    "lat": 51.581802,
+                    "lon": -0.316981,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Harrow & Wealdstone Rail Station",
+                    "lat": 51.592169,
+                    "lon": -0.334571,
+                    "lines": [
+                        "lioness",
+                        "west-midlands-trains"
+                    ]
+                },
+                {
+                    "name": "Headstone Lane Rail Station",
+                    "lat": 51.602649,
+                    "lon": -0.35722,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Hatch End Rail Station",
+                    "lat": 51.609417,
+                    "lon": -0.368601,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Carpenders Park Rail Station",
+                    "lat": 51.628351,
+                    "lon": -0.385939,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Bushey Rail Station",
+                    "lat": 51.645402,
+                    "lon": -0.384799,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Watford High Street Rail Station",
+                    "lat": 51.652655,
+                    "lon": -0.391711,
+                    "lines": [
+                        "lioness"
+                    ]
+                },
+                {
+                    "name": "Watford Junction Rail Station",
+                    "lat": 51.663529,
+                    "lon": -0.396517,
+                    "lines": [
+                        "lioness"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.133924,51.528136],[-0.178878,51.541432],[-0.192237,51.537277],[-0.204985,51.533966],[-0.225088,51.53054],[-0.244548,51.532497],[-0.257667,51.536289],[-0.275828,51.544111],[-0.296433,51.552325],[-0.303984,51.562596],[-0.308462,51.570214],[-0.316981,51.581802],[-0.334571,51.592169],[-0.35722,51.602649],[-0.368601,51.609417],[-0.385939,51.628351],[-0.384799,51.645402],[-0.391711,51.652655],[-0.396517,51.663529]]]"
+    ]
+}

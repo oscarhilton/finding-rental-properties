@@ -1,0 +1,322 @@
+{
+    "id": "weaver",
+    "hex": "#893b67",
+    "sequences": [
+        {
+            "branchId": 7,
+            "direction": "outbound",
+            "nextBranchIds": [
+                8,
+                9
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "London Liverpool Street Rail Station",
+                    "lat": 51.517991,
+                    "lon": -0.081426,
+                    "lines": [
+                        "c2c",
+                        "elizabeth",
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Bethnal Green Rail Station",
+                    "lat": 51.523917,
+                    "lon": -0.059568,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Cambridge Heath (London) Rail Station",
+                    "lat": 51.531973,
+                    "lon": -0.057279,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "London Fields Rail Station",
+                    "lat": 51.541153,
+                    "lon": -0.057753,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Hackney Downs Rail Station",
+                    "lat": 51.548757,
+                    "lon": -0.060819,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 8,
+            "direction": "outbound",
+            "nextBranchIds": [
+                10,
+                11
+            ],
+            "prevBranchIds": [
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "Hackney Downs Rail Station",
+                    "lat": 51.548757,
+                    "lon": -0.060819,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Rectory Road Rail Station",
+                    "lat": 51.558502,
+                    "lon": -0.068267,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Stoke Newington Rail Station",
+                    "lat": 51.565233,
+                    "lon": -0.072887,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Stamford Hill Rail Station",
+                    "lat": 51.574467,
+                    "lon": -0.076682,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Seven Sisters Rail Station",
+                    "lat": 51.582268,
+                    "lon": -0.07527,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Bruce Grove Rail Station",
+                    "lat": 51.593959,
+                    "lon": -0.069867,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "White Hart Lane Rail Station",
+                    "lat": 51.605037,
+                    "lon": -0.070914,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Silver Street Rail Station",
+                    "lat": 51.614688,
+                    "lon": -0.06724,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Edmonton Green Rail Station",
+                    "lat": 51.624929,
+                    "lon": -0.061112,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 10,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                8
+            ],
+            "sequences": [
+                {
+                    "name": "Edmonton Green Rail Station",
+                    "lat": 51.624929,
+                    "lon": -0.061112,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Southbury Rail Station",
+                    "lat": 51.648705,
+                    "lon": -0.052437,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Turkey Street Rail Station",
+                    "lat": 51.672628,
+                    "lon": -0.047217,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Theobalds Grove Rail Station",
+                    "lat": 51.692457,
+                    "lon": -0.034831,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Cheshunt Rail Station",
+                    "lat": 51.702876,
+                    "lon": -0.02396,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 11,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                8
+            ],
+            "sequences": [
+                {
+                    "name": "Edmonton Green Rail Station",
+                    "lat": 51.624929,
+                    "lon": -0.061112,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Bush Hill Park Rail Station",
+                    "lat": 51.641519,
+                    "lon": -0.069221,
+                    "lines": [
+                        "377",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Enfield Town Rail Station",
+                    "lat": 51.652026,
+                    "lon": -0.079328,
+                    "lines": [
+                        "weaver"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 9,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "Hackney Downs Rail Station",
+                    "lat": 51.548757,
+                    "lon": -0.060819,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Clapton Rail Station",
+                    "lat": 51.561644,
+                    "lon": -0.057025,
+                    "lines": [
+                        "greater-anglia",
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "St James Street (London) Rail Station",
+                    "lat": 51.580981,
+                    "lon": -0.032918,
+                    "lines": [
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Walthamstow Central Rail Station",
+                    "lat": 51.582919,
+                    "lon": -0.019815,
+                    "lines": [
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Wood Street Rail Station",
+                    "lat": 51.58658,
+                    "lon": -0.002405,
+                    "lines": [
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Highams Park Rail Station",
+                    "lat": 51.60835,
+                    "lon": -0.000222,
+                    "lines": [
+                        "weaver"
+                    ]
+                },
+                {
+                    "name": "Chingford Rail Station",
+                    "lat": 51.633087,
+                    "lon": 0.009897,
+                    "lines": [
+                        "weaver"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.081426,51.517991],[-0.059568,51.523917],[-0.057279,51.531973],[-0.057753,51.541153],[-0.060819,51.548757],[-0.068267,51.558502],[-0.072887,51.565233],[-0.076682,51.574467],[-0.07527,51.582268],[-0.069867,51.593959],[-0.070914,51.605037],[-0.06724,51.614688],[-0.061112,51.624929],[-0.052437,51.648705],[-0.047217,51.672628],[-0.034831,51.692457],[-0.02396,51.702876]]]",
+        "[[[-0.081426,51.517991],[-0.059568,51.523917],[-0.057279,51.531973],[-0.057753,51.541153],[-0.060819,51.548757],[-0.068267,51.558502],[-0.072887,51.565233],[-0.076682,51.574467],[-0.07527,51.582268],[-0.069867,51.593959],[-0.070914,51.605037],[-0.06724,51.614688],[-0.061112,51.624929],[-0.069221,51.641519],[-0.079328,51.652026]]]",
+        "[[[-0.081426,51.517991],[-0.059568,51.523917],[-0.057279,51.531973],[-0.057753,51.541153],[-0.060819,51.548757],[-0.057025,51.561644],[-0.032918,51.580981],[-0.019815,51.582919],[-0.002405,51.58658],[-0.000222,51.60835],[0.009897,51.633087]]]"
+    ]
+}

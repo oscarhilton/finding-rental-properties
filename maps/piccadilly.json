@@ -1,0 +1,559 @@
+{
+    "id": "piccadilly",
+    "hex": "#0019a8",
+    "sequences": [
+        {
+            "branchId": 5,
+            "direction": "outbound",
+            "nextBranchIds": [
+                8
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Uxbridge Underground Station",
+                    "lat": 51.546565,
+                    "lon": -0.477949,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hillingdon Underground Station",
+                    "lat": 51.553715,
+                    "lon": -0.449828,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ickenham Underground Station",
+                    "lat": 51.561992,
+                    "lon": -0.442001,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ruislip Underground Station",
+                    "lat": 51.571354,
+                    "lon": -0.421898,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ruislip Manor Underground Station",
+                    "lat": 51.573202,
+                    "lon": -0.412973,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Eastcote Underground Station",
+                    "lat": 51.576506,
+                    "lon": -0.397373,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Rayners Lane Underground Station",
+                    "lat": 51.575147,
+                    "lon": -0.371127,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "South Harrow Underground Station",
+                    "lat": 51.564888,
+                    "lon": -0.352492,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Sudbury Hill Underground Station",
+                    "lat": 51.556946,
+                    "lon": -0.336435,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Sudbury Town Underground Station",
+                    "lat": 51.550815,
+                    "lon": -0.315745,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Alperton Underground Station",
+                    "lat": 51.540627,
+                    "lon": -0.29961,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Park Royal Underground Station",
+                    "lat": 51.527123,
+                    "lon": -0.284341,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "North Ealing Underground Station",
+                    "lat": 51.517505,
+                    "lon": -0.288868,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ealing Common Underground Station",
+                    "lat": 51.51014,
+                    "lon": -0.288265,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Acton Town Underground Station",
+                    "lat": 51.503057,
+                    "lon": -0.280462,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 8,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                5,
+                9
+            ],
+            "sequences": [
+                {
+                    "name": "Acton Town Underground Station",
+                    "lat": 51.503057,
+                    "lon": -0.280462,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Turnham Green Underground Station",
+                    "lat": 51.495148,
+                    "lon": -0.254555,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hammersmith (Dist&Picc Line) Underground Station",
+                    "lat": 51.4923,
+                    "lon": -0.22362,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Barons Court Underground Station",
+                    "lat": 51.490311,
+                    "lon": -0.213427,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Earl's Court Underground Station",
+                    "lat": 51.492063,
+                    "lon": -0.193378,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Gloucester Road Underground Station",
+                    "lat": 51.494316,
+                    "lon": -0.182658,
+                    "lines": [
+                        "circle",
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "South Kensington Underground Station",
+                    "lat": 51.494094,
+                    "lon": -0.174138,
+                    "lines": [
+                        "circle",
+                        "district",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Knightsbridge Underground Station",
+                    "lat": 51.501669,
+                    "lon": -0.160508,
+                    "lines": [
+                        "137",
+                        "19",
+                        "22",
+                        "452",
+                        "c1",
+                        "n137",
+                        "n19",
+                        "n22",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hyde Park Corner Underground Station",
+                    "lat": 51.503035,
+                    "lon": -0.152441,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Green Park Underground Station",
+                    "lat": 51.506947,
+                    "lon": -0.142787,
+                    "lines": [
+                        "jubilee",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Piccadilly Circus Underground Station",
+                    "lat": 51.51005,
+                    "lon": -0.133798,
+                    "lines": [
+                        "bakerloo",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Leicester Square Underground Station",
+                    "lat": 51.511386,
+                    "lon": -0.128426,
+                    "lines": [
+                        "northern",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Covent Garden Underground Station",
+                    "lat": 51.513093,
+                    "lon": -0.124436,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Holborn Underground Station",
+                    "lat": 51.51758,
+                    "lon": -0.120475,
+                    "lines": [
+                        "central",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Russell Square Underground Station",
+                    "lat": 51.523073,
+                    "lon": -0.124285,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "King's Cross St. Pancras Underground Station",
+                    "lat": 51.530663,
+                    "lon": -0.123194,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Caledonian Road Underground Station",
+                    "lat": 51.548519,
+                    "lon": -0.118493,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Holloway Road Underground Station",
+                    "lat": 51.552697,
+                    "lon": -0.113244,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Arsenal Underground Station",
+                    "lat": 51.558655,
+                    "lon": -0.107457,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Finsbury Park Underground Station",
+                    "lat": 51.564158,
+                    "lon": -0.106825,
+                    "lines": [
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Manor House Underground Station",
+                    "lat": 51.570738,
+                    "lon": -0.096118,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Turnpike Lane Underground Station",
+                    "lat": 51.590272,
+                    "lon": -0.102953,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Wood Green Underground Station",
+                    "lat": 51.597479,
+                    "lon": -0.109886,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Bounds Green Underground Station",
+                    "lat": 51.607034,
+                    "lon": -0.124235,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Arnos Grove Underground Station",
+                    "lat": 51.616446,
+                    "lon": -0.133062,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Southgate Underground Station",
+                    "lat": 51.632315,
+                    "lon": -0.127816,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Oakwood Underground Station",
+                    "lat": 51.647726,
+                    "lon": -0.132182,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Cockfosters Underground Station",
+                    "lat": 51.65152,
+                    "lon": -0.149171,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 6,
+            "direction": "outbound",
+            "nextBranchIds": [
+                9
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Heathrow Terminal 4 Underground Station",
+                    "lat": 51.458524,
+                    "lon": -0.445771,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Heathrow Terminals 2 & 3 Underground Station",
+                    "lat": 51.471235,
+                    "lon": -0.452265,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 9,
+            "direction": "outbound",
+            "nextBranchIds": [
+                8
+            ],
+            "prevBranchIds": [
+                6,
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "Heathrow Terminals 2 & 3 Underground Station",
+                    "lat": 51.471235,
+                    "lon": -0.452265,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hatton Cross Underground Station",
+                    "lat": 51.466747,
+                    "lon": -0.423191,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hounslow West Underground Station",
+                    "lat": 51.473469,
+                    "lon": -0.386544,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hounslow Central Underground Station",
+                    "lat": 51.471295,
+                    "lon": -0.366578,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hounslow East Underground Station",
+                    "lat": 51.473213,
+                    "lon": -0.356474,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Osterley Underground Station",
+                    "lat": 51.481274,
+                    "lon": -0.352224,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Boston Manor Underground Station",
+                    "lat": 51.495635,
+                    "lon": -0.324939,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Northfields Underground Station",
+                    "lat": 51.499319,
+                    "lon": -0.314719,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "South Ealing Underground Station",
+                    "lat": 51.501003,
+                    "lon": -0.307424,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Acton Town Underground Station",
+                    "lat": 51.503057,
+                    "lon": -0.280462,
+                    "lines": [
+                        "district",
+                        "piccadilly"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 7,
+            "direction": "outbound",
+            "nextBranchIds": [
+                9
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Heathrow Terminal 5 Underground Station",
+                    "lat": 51.470052,
+                    "lon": -0.49056,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Heathrow Terminals 2 & 3 Underground Station",
+                    "lat": 51.471235,
+                    "lon": -0.452265,
+                    "lines": [
+                        "piccadilly"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.477949,51.546565],[-0.449828,51.553715],[-0.442001,51.561992],[-0.421898,51.571354],[-0.412973,51.573202],[-0.397373,51.576506],[-0.371127,51.575147],[-0.352492,51.564888],[-0.336435,51.556946],[-0.315745,51.550815],[-0.29961,51.540627],[-0.284341,51.527123],[-0.288868,51.517505],[-0.288265,51.51014],[-0.280462,51.503057],[-0.254555,51.495148],[-0.22362,51.4923],[-0.213427,51.490311],[-0.193378,51.492063],[-0.182658,51.494316],[-0.174138,51.494094],[-0.160508,51.501669],[-0.152441,51.503035],[-0.142787,51.506947],[-0.133798,51.51005],[-0.128426,51.511386],[-0.124436,51.513093],[-0.120475,51.51758],[-0.124285,51.523073],[-0.123194,51.530663],[-0.118493,51.548519],[-0.113244,51.552697],[-0.107457,51.558655],[-0.106825,51.564158],[-0.096118,51.570738],[-0.102953,51.590272],[-0.109886,51.597479],[-0.124235,51.607034],[-0.133062,51.616446],[-0.127816,51.632315],[-0.132182,51.647726],[-0.149171,51.65152]]]",
+        "[[[-0.445771,51.458524],[-0.452265,51.471235],[-0.423191,51.466747],[-0.386544,51.473469],[-0.366578,51.471295],[-0.356474,51.473213],[-0.352224,51.481274],[-0.324939,51.495635],[-0.314719,51.499319],[-0.307424,51.501003],[-0.280462,51.503057],[-0.254555,51.495148],[-0.22362,51.4923],[-0.213427,51.490311],[-0.193378,51.492063],[-0.182658,51.494316],[-0.174138,51.494094],[-0.160508,51.501669],[-0.152441,51.503035],[-0.142787,51.506947],[-0.133798,51.51005],[-0.128426,51.511386],[-0.124436,51.513093],[-0.120475,51.51758],[-0.124285,51.523073],[-0.123194,51.530663],[-0.118493,51.548519],[-0.113244,51.552697],[-0.107457,51.558655],[-0.106825,51.564158],[-0.096118,51.570738],[-0.102953,51.590272],[-0.109886,51.597479],[-0.124235,51.607034],[-0.133062,51.616446],[-0.127816,51.632315],[-0.132182,51.647726],[-0.149171,51.65152]]]",
+        "[[[-0.49056,51.470052],[-0.452265,51.471235],[-0.423191,51.466747],[-0.386544,51.473469],[-0.366578,51.471295],[-0.356474,51.473213],[-0.352224,51.481274],[-0.324939,51.495635],[-0.314719,51.499319],[-0.307424,51.501003],[-0.280462,51.503057],[-0.254555,51.495148],[-0.22362,51.4923],[-0.213427,51.490311],[-0.193378,51.492063],[-0.182658,51.494316],[-0.174138,51.494094],[-0.160508,51.501669],[-0.152441,51.503035],[-0.142787,51.506947],[-0.133798,51.51005],[-0.128426,51.511386],[-0.124436,51.513093],[-0.120475,51.51758],[-0.124285,51.523073],[-0.123194,51.530663],[-0.118493,51.548519],[-0.113244,51.552697],[-0.107457,51.558655],[-0.106825,51.564158],[-0.096118,51.570738],[-0.102953,51.590272],[-0.109886,51.597479],[-0.124235,51.607034],[-0.133062,51.616446],[-0.127816,51.632315],[-0.132182,51.647726],[-0.149171,51.65152]]]"
+    ]
+}

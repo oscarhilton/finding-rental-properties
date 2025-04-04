@@ -1,0 +1,296 @@
+{
+    "id": "hammersmith-city",
+    "hex": "#f4a9be",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Hammersmith (H&C Line) Underground Station",
+                    "lat": 51.49339,
+                    "lon": -0.22503,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Goldhawk Road Underground Station",
+                    "lat": 51.502005,
+                    "lon": -0.226715,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Shepherd's Bush Market Underground Station",
+                    "lat": 51.505579,
+                    "lon": -0.226375,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Wood Lane Underground Station",
+                    "lat": 51.509669,
+                    "lon": -0.22453,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Latimer Road Underground Station",
+                    "lat": 51.513389,
+                    "lon": -0.217799,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Ladbroke Grove Underground Station",
+                    "lat": 51.517449,
+                    "lon": -0.210391,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Westbourne Park Underground Station",
+                    "lat": 51.52111,
+                    "lon": -0.201065,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Royal Oak Underground Station",
+                    "lat": 51.519113,
+                    "lon": -0.188748,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Paddington (H&C Line)-Underground",
+                    "lat": 51.518187,
+                    "lon": -0.178306,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Edgware Road (Circle Line) Underground Station",
+                    "lat": 51.519858,
+                    "lon": -0.167832,
+                    "lines": [
+                        "circle",
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Baker Street Underground Station",
+                    "lat": 51.522883,
+                    "lon": -0.15713,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "hammersmith-city",
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Great Portland Street Underground Station",
+                    "lat": 51.52384,
+                    "lon": -0.144262,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Euston Square Underground Station",
+                    "lat": 51.525604,
+                    "lon": -0.135829,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "King's Cross St. Pancras Underground Station",
+                    "lat": 51.530663,
+                    "lon": -0.123194,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Farringdon Underground Station",
+                    "lat": 51.520252,
+                    "lon": -0.104913,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Barbican Underground Station",
+                    "lat": 51.520275,
+                    "lon": -0.097993,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Moorgate Underground Station",
+                    "lat": 51.518176,
+                    "lon": -0.088322,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Liverpool Street Underground Station",
+                    "lat": 51.517372,
+                    "lon": -0.083182,
+                    "lines": [
+                        "central",
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Aldgate East Underground Station",
+                    "lat": 51.515037,
+                    "lon": -0.072384,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Whitechapel Underground Station",
+                    "lat": 51.519518,
+                    "lon": -0.059971,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Stepney Green Underground Station",
+                    "lat": 51.521858,
+                    "lon": -0.046596,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Mile End Underground Station",
+                    "lat": 51.525122,
+                    "lon": -0.03364,
+                    "lines": [
+                        "central",
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Bow Road Underground Station",
+                    "lat": 51.52694,
+                    "lon": -0.025128,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Bromley-by-Bow Underground Station",
+                    "lat": 51.524839,
+                    "lon": -0.011538,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "West Ham Underground Station",
+                    "lat": 51.528136,
+                    "lon": 0.005055,
+                    "lines": [
+                        "district",
+                        "hammersmith-city",
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Plaistow Underground Station",
+                    "lat": 51.531341,
+                    "lon": 0.017451,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Upton Park Underground Station",
+                    "lat": 51.53534,
+                    "lon": 0.035263,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "East Ham Underground Station",
+                    "lat": 51.538948,
+                    "lon": 0.051186,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Barking Underground Station",
+                    "lat": 51.539321,
+                    "lon": 0.081053,
+                    "lines": [
+                        "district",
+                        "hammersmith-city"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.22503,51.49339],[-0.226715,51.502005],[-0.226375,51.505579],[-0.22453,51.509669],[-0.217799,51.513389],[-0.210391,51.517449],[-0.201065,51.52111],[-0.188748,51.519113],[-0.178306,51.518187],[-0.167832,51.519858],[-0.15713,51.522883],[-0.144262,51.52384],[-0.135829,51.525604],[-0.123194,51.530663],[-0.104913,51.520252],[-0.097993,51.520275],[-0.088322,51.518176],[-0.083182,51.517372],[-0.072384,51.515037],[-0.059971,51.519518],[-0.046596,51.521858],[-0.03364,51.525122],[-0.025128,51.52694],[-0.011538,51.524839],[0.005055,51.528136],[0.017451,51.531341],[0.035263,51.53534],[0.051186,51.538948],[0.081053,51.539321]]]"
+    ]
+}

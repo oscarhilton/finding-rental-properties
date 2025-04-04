@@ -1,0 +1,234 @@
+{
+    "id": "bakerloo",
+    "hex": "#b26300",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Elephant & Castle Underground Station",
+                    "lat": 51.494536,
+                    "lon": -0.100606,
+                    "lines": [
+                        "bakerloo",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Lambeth North Underground Station",
+                    "lat": 51.498808,
+                    "lon": -0.112315,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Waterloo Underground Station",
+                    "lat": 51.503299,
+                    "lon": -0.11478,
+                    "lines": [
+                        "bakerloo",
+                        "jubilee",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                },
+                {
+                    "name": "Embankment Underground Station",
+                    "lat": 51.507058,
+                    "lon": -0.122666,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "district",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Charing Cross Underground Station",
+                    "lat": 51.50741,
+                    "lon": -0.127277,
+                    "lines": [
+                        "bakerloo",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Piccadilly Circus Underground Station",
+                    "lat": 51.51005,
+                    "lon": -0.133798,
+                    "lines": [
+                        "bakerloo",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Oxford Circus Underground Station",
+                    "lat": 51.515224,
+                    "lon": -0.141903,
+                    "lines": [
+                        "bakerloo",
+                        "central",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Regent's Park Underground Station",
+                    "lat": 51.523344,
+                    "lon": -0.146444,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Baker Street Underground Station",
+                    "lat": 51.522883,
+                    "lon": -0.15713,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "hammersmith-city",
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Marylebone Underground Station",
+                    "lat": 51.522322,
+                    "lon": -0.163207,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Edgware Road (Bakerloo) Underground Station",
+                    "lat": 51.520299,
+                    "lon": -0.17015,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Paddington Underground Station",
+                    "lat": 51.516581,
+                    "lon": -0.175689,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "district"
+                    ]
+                },
+                {
+                    "name": "Warwick Avenue Underground Station",
+                    "lat": 51.523263,
+                    "lon": -0.183783,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Maida Vale Underground Station",
+                    "lat": 51.529777,
+                    "lon": -0.185758,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Kilburn Park Underground Station",
+                    "lat": 51.534979,
+                    "lon": -0.194232,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Queen's Park Underground Station",
+                    "lat": 51.534158,
+                    "lon": -0.204574,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Kensal Green Underground Station",
+                    "lat": 51.530539,
+                    "lon": -0.225016,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Willesden Junction Underground Station",
+                    "lat": 51.532259,
+                    "lon": -0.244283,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Harlesden Underground Station",
+                    "lat": 51.53631,
+                    "lon": -0.257883,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Stonebridge Park Underground Station",
+                    "lat": 51.543959,
+                    "lon": -0.275892,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Wembley Central Underground Station",
+                    "lat": 51.552304,
+                    "lon": -0.296852,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "North Wembley Underground Station",
+                    "lat": 51.562551,
+                    "lon": -0.304,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "South Kenton Underground Station",
+                    "lat": 51.570232,
+                    "lon": -0.308433,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Kenton Underground Station",
+                    "lat": 51.581756,
+                    "lon": -0.31691,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                },
+                {
+                    "name": "Harrow & Wealdstone Underground Station",
+                    "lat": 51.592268,
+                    "lon": -0.335217,
+                    "lines": [
+                        "bakerloo"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.100606,51.494536],[-0.112315,51.498808],[-0.11478,51.503299],[-0.122666,51.507058],[-0.127277,51.50741],[-0.133798,51.51005],[-0.141903,51.515224],[-0.146444,51.523344],[-0.15713,51.522883],[-0.163207,51.522322],[-0.17015,51.520299],[-0.175689,51.516581],[-0.183783,51.523263],[-0.185758,51.529777],[-0.194232,51.534979],[-0.204574,51.534158],[-0.225016,51.530539],[-0.244283,51.532259],[-0.257883,51.53631],[-0.275892,51.543959],[-0.296852,51.552304],[-0.304,51.562551],[-0.308433,51.570232],[-0.31691,51.581756],[-0.335217,51.592268]]]"
+    ]
+}

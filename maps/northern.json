@@ -1,0 +1,664 @@
+{
+    "id": "northern",
+    "hex": "#000000",
+    "sequences": [
+        {
+            "branchId": 11,
+            "direction": "outbound",
+            "nextBranchIds": [
+                12,
+                13
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Morden Underground Station",
+                    "lat": 51.402142,
+                    "lon": -0.194839,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "South Wimbledon Underground Station",
+                    "lat": 51.415309,
+                    "lon": -0.192005,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Colliers Wood Underground Station",
+                    "lat": 51.41816,
+                    "lon": -0.178086,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Tooting Broadway Underground Station",
+                    "lat": 51.42763,
+                    "lon": -0.168374,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Tooting Bec Underground Station",
+                    "lat": 51.435678,
+                    "lon": -0.159736,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Balham Underground Station",
+                    "lat": 51.443288,
+                    "lon": -0.152997,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Clapham South Underground Station",
+                    "lat": 51.452654,
+                    "lon": -0.147582,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Clapham Common Underground Station",
+                    "lat": 51.461742,
+                    "lon": -0.138317,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Clapham North Underground Station",
+                    "lat": 51.465135,
+                    "lon": -0.130016,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Stockwell Underground Station",
+                    "lat": 51.472184,
+                    "lon": -0.122644,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Oval Underground Station",
+                    "lat": 51.48185,
+                    "lon": -0.112439,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Kennington Underground Station",
+                    "lat": 51.488337,
+                    "lon": -0.105963,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 12,
+            "direction": "outbound",
+            "nextBranchIds": [
+                14
+            ],
+            "prevBranchIds": [
+                11,
+                10
+            ],
+            "sequences": [
+                {
+                    "name": "Kennington Underground Station",
+                    "lat": 51.488337,
+                    "lon": -0.105963,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Waterloo Underground Station",
+                    "lat": 51.503299,
+                    "lon": -0.11478,
+                    "lines": [
+                        "bakerloo",
+                        "jubilee",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                },
+                {
+                    "name": "Embankment Underground Station",
+                    "lat": 51.507058,
+                    "lon": -0.122666,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "district",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Charing Cross Underground Station",
+                    "lat": 51.50741,
+                    "lon": -0.127277,
+                    "lines": [
+                        "bakerloo",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Leicester Square Underground Station",
+                    "lat": 51.511386,
+                    "lon": -0.128426,
+                    "lines": [
+                        "northern",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Tottenham Court Road Underground Station",
+                    "lat": 51.516426,
+                    "lon": -0.13041,
+                    "lines": [
+                        "central",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Goodge Street Underground Station",
+                    "lat": 51.520599,
+                    "lon": -0.134361,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Warren Street Underground Station",
+                    "lat": 51.524951,
+                    "lon": -0.138321,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Euston Underground Station",
+                    "lat": 51.528344,
+                    "lon": -0.1323,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 14,
+            "direction": "outbound",
+            "nextBranchIds": [
+                16,
+                17
+            ],
+            "prevBranchIds": [
+                12
+            ],
+            "sequences": [
+                {
+                    "name": "Euston Underground Station",
+                    "lat": 51.528344,
+                    "lon": -0.1323,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Mornington Crescent Underground Station",
+                    "lat": 51.534679,
+                    "lon": -0.138789,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Camden Town Underground Station",
+                    "lat": 51.539292,
+                    "lon": -0.14274,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 17,
+            "direction": "outbound",
+            "nextBranchIds": [
+                18,
+                19
+            ],
+            "prevBranchIds": [
+                14,
+                15
+            ],
+            "sequences": [
+                {
+                    "name": "Camden Town Underground Station",
+                    "lat": 51.539292,
+                    "lon": -0.14274,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Kentish Town Underground Station",
+                    "lat": 51.550312,
+                    "lon": -0.140733,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Tufnell Park Underground Station",
+                    "lat": 51.556822,
+                    "lon": -0.138433,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Archway Underground Station",
+                    "lat": 51.565478,
+                    "lon": -0.134819,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Highgate Underground Station",
+                    "lat": 51.577532,
+                    "lon": -0.145857,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "East Finchley Underground Station",
+                    "lat": 51.587131,
+                    "lon": -0.165012,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Finchley Central Underground Station",
+                    "lat": 51.600921,
+                    "lon": -0.192527,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 18,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                17
+            ],
+            "sequences": [
+                {
+                    "name": "Finchley Central Underground Station",
+                    "lat": 51.600921,
+                    "lon": -0.192527,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "West Finchley Underground Station",
+                    "lat": 51.609426,
+                    "lon": -0.188362,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Woodside Park Underground Station",
+                    "lat": 51.618014,
+                    "lon": -0.18542,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Totteridge & Whetstone Underground Station",
+                    "lat": 51.630597,
+                    "lon": -0.17921,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "High Barnet Underground Station",
+                    "lat": 51.650541,
+                    "lon": -0.194298,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 13,
+            "direction": "outbound",
+            "nextBranchIds": [
+                15
+            ],
+            "prevBranchIds": [
+                11
+            ],
+            "sequences": [
+                {
+                    "name": "Kennington Underground Station",
+                    "lat": 51.488337,
+                    "lon": -0.105963,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Elephant & Castle Underground Station",
+                    "lat": 51.494536,
+                    "lon": -0.100606,
+                    "lines": [
+                        "bakerloo",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Borough Underground Station",
+                    "lat": 51.501199,
+                    "lon": -0.09337,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "London Bridge Underground Station",
+                    "lat": 51.505721,
+                    "lon": -0.088873,
+                    "lines": [
+                        "jubilee",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Bank Underground Station",
+                    "lat": 51.513335,
+                    "lon": -0.088712,
+                    "lines": [
+                        "central",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                },
+                {
+                    "name": "Moorgate Underground Station",
+                    "lat": 51.518176,
+                    "lon": -0.088322,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Old Street Underground Station",
+                    "lat": 51.525864,
+                    "lon": -0.08777,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Angel Underground Station",
+                    "lat": 51.531788,
+                    "lon": -0.105919,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "King's Cross St. Pancras Underground Station",
+                    "lat": 51.530663,
+                    "lon": -0.123194,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Euston Underground Station",
+                    "lat": 51.528344,
+                    "lon": -0.1323,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 15,
+            "direction": "outbound",
+            "nextBranchIds": [
+                17,
+                16
+            ],
+            "prevBranchIds": [
+                13
+            ],
+            "sequences": [
+                {
+                    "name": "Euston Underground Station",
+                    "lat": 51.528344,
+                    "lon": -0.1323,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Camden Town Underground Station",
+                    "lat": 51.539292,
+                    "lon": -0.14274,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 16,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                14,
+                15
+            ],
+            "sequences": [
+                {
+                    "name": "Camden Town Underground Station",
+                    "lat": 51.539292,
+                    "lon": -0.14274,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Chalk Farm Underground Station",
+                    "lat": 51.544118,
+                    "lon": -0.153388,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Belsize Park Underground Station",
+                    "lat": 51.550311,
+                    "lon": -0.164648,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Hampstead Underground Station",
+                    "lat": 51.556239,
+                    "lon": -0.177464,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Golders Green Underground Station",
+                    "lat": 51.572259,
+                    "lon": -0.194039,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Brent Cross Underground Station",
+                    "lat": 51.57665,
+                    "lon": -0.213622,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Hendon Central Underground Station",
+                    "lat": 51.583301,
+                    "lon": -0.226424,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Colindale Underground Station",
+                    "lat": 51.595424,
+                    "lon": -0.249919,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Burnt Oak Underground Station",
+                    "lat": 51.602774,
+                    "lon": -0.264048,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Edgware Underground Station",
+                    "lat": 51.613653,
+                    "lon": -0.274928,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 19,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                17
+            ],
+            "sequences": [
+                {
+                    "name": "Finchley Central Underground Station",
+                    "lat": 51.600921,
+                    "lon": -0.192527,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Mill Hill East Underground Station",
+                    "lat": 51.608229,
+                    "lon": -0.209986,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 10,
+            "direction": "outbound",
+            "nextBranchIds": [
+                12
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Battersea Power Station Underground Station",
+                    "lat": 51.479932,
+                    "lon": -0.142142,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Nine Elms Underground Station",
+                    "lat": 51.479912,
+                    "lon": -0.128476,
+                    "lines": [
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Kennington Underground Station",
+                    "lat": 51.488337,
+                    "lon": -0.105963,
+                    "lines": [
+                        "northern"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.194839,51.402142],[-0.192005,51.415309],[-0.178086,51.41816],[-0.168374,51.42763],[-0.159736,51.435678],[-0.152997,51.443288],[-0.147582,51.452654],[-0.138317,51.461742],[-0.130016,51.465135],[-0.122644,51.472184],[-0.112439,51.48185],[-0.105963,51.488337],[-0.11478,51.503299],[-0.122666,51.507058],[-0.127277,51.50741],[-0.128426,51.511386],[-0.13041,51.516426],[-0.134361,51.520599],[-0.138321,51.524951],[-0.1323,51.528344],[-0.138789,51.534679],[-0.14274,51.539292],[-0.140733,51.550312],[-0.138433,51.556822],[-0.134819,51.565478],[-0.145857,51.577532],[-0.165012,51.587131],[-0.192527,51.600921],[-0.188362,51.609426],[-0.18542,51.618014],[-0.17921,51.630597],[-0.194298,51.650541]]]",
+        "[[[-0.194839,51.402142],[-0.192005,51.415309],[-0.178086,51.41816],[-0.168374,51.42763],[-0.159736,51.435678],[-0.152997,51.443288],[-0.147582,51.452654],[-0.138317,51.461742],[-0.130016,51.465135],[-0.122644,51.472184],[-0.112439,51.48185],[-0.105963,51.488337],[-0.100606,51.494536],[-0.09337,51.501199],[-0.088873,51.505721],[-0.088712,51.513335],[-0.088322,51.518176],[-0.08777,51.525864],[-0.105919,51.531788],[-0.123194,51.530663],[-0.1323,51.528344],[-0.14274,51.539292],[-0.140733,51.550312],[-0.138433,51.556822],[-0.134819,51.565478],[-0.145857,51.577532],[-0.165012,51.587131],[-0.192527,51.600921],[-0.188362,51.609426],[-0.18542,51.618014],[-0.17921,51.630597],[-0.194298,51.650541]]]",
+        "[[[-0.194839,51.402142],[-0.192005,51.415309],[-0.178086,51.41816],[-0.168374,51.42763],[-0.159736,51.435678],[-0.152997,51.443288],[-0.147582,51.452654],[-0.138317,51.461742],[-0.130016,51.465135],[-0.122644,51.472184],[-0.112439,51.48185],[-0.105963,51.488337],[-0.11478,51.503299],[-0.122666,51.507058],[-0.127277,51.50741],[-0.128426,51.511386],[-0.13041,51.516426],[-0.134361,51.520599],[-0.138321,51.524951],[-0.1323,51.528344],[-0.138789,51.534679],[-0.14274,51.539292],[-0.153388,51.544118],[-0.164648,51.550311],[-0.177464,51.556239],[-0.194039,51.572259],[-0.213622,51.57665],[-0.226424,51.583301],[-0.249919,51.595424],[-0.264048,51.602774],[-0.274928,51.613653]]]",
+        "[[[-0.194839,51.402142],[-0.192005,51.415309],[-0.178086,51.41816],[-0.168374,51.42763],[-0.159736,51.435678],[-0.152997,51.443288],[-0.147582,51.452654],[-0.138317,51.461742],[-0.130016,51.465135],[-0.122644,51.472184],[-0.112439,51.48185],[-0.105963,51.488337],[-0.100606,51.494536],[-0.09337,51.501199],[-0.088873,51.505721],[-0.088712,51.513335],[-0.088322,51.518176],[-0.08777,51.525864],[-0.105919,51.531788],[-0.123194,51.530663],[-0.1323,51.528344],[-0.14274,51.539292],[-0.153388,51.544118],[-0.164648,51.550311],[-0.177464,51.556239],[-0.194039,51.572259],[-0.213622,51.57665],[-0.226424,51.583301],[-0.249919,51.595424],[-0.264048,51.602774],[-0.274928,51.613653]]]",
+        "[[[-0.194839,51.402142],[-0.192005,51.415309],[-0.178086,51.41816],[-0.168374,51.42763],[-0.159736,51.435678],[-0.152997,51.443288],[-0.147582,51.452654],[-0.138317,51.461742],[-0.130016,51.465135],[-0.122644,51.472184],[-0.112439,51.48185],[-0.105963,51.488337],[-0.11478,51.503299],[-0.122666,51.507058],[-0.127277,51.50741],[-0.128426,51.511386],[-0.13041,51.516426],[-0.134361,51.520599],[-0.138321,51.524951],[-0.1323,51.528344],[-0.138789,51.534679],[-0.14274,51.539292],[-0.140733,51.550312],[-0.138433,51.556822],[-0.134819,51.565478],[-0.145857,51.577532],[-0.165012,51.587131],[-0.192527,51.600921],[-0.209986,51.608229]]]",
+        "[[[-0.194839,51.402142],[-0.192005,51.415309],[-0.178086,51.41816],[-0.168374,51.42763],[-0.159736,51.435678],[-0.152997,51.443288],[-0.147582,51.452654],[-0.138317,51.461742],[-0.130016,51.465135],[-0.122644,51.472184],[-0.112439,51.48185],[-0.105963,51.488337],[-0.100606,51.494536],[-0.09337,51.501199],[-0.088873,51.505721],[-0.088712,51.513335],[-0.088322,51.518176],[-0.08777,51.525864],[-0.105919,51.531788],[-0.123194,51.530663],[-0.1323,51.528344],[-0.14274,51.539292],[-0.140733,51.550312],[-0.138433,51.556822],[-0.134819,51.565478],[-0.145857,51.577532],[-0.165012,51.587131],[-0.192527,51.600921],[-0.209986,51.608229]]]",
+        "[[[-0.142142,51.479932],[-0.128476,51.479912],[-0.105963,51.488337],[-0.11478,51.503299],[-0.122666,51.507058],[-0.127277,51.50741],[-0.128426,51.511386],[-0.13041,51.516426],[-0.134361,51.520599],[-0.138321,51.524951],[-0.1323,51.528344],[-0.138789,51.534679],[-0.14274,51.539292],[-0.140733,51.550312],[-0.138433,51.556822],[-0.134819,51.565478],[-0.145857,51.577532],[-0.165012,51.587131],[-0.192527,51.600921],[-0.188362,51.609426],[-0.18542,51.618014],[-0.17921,51.630597],[-0.194298,51.650541]]]",
+        "[[[-0.142142,51.479932],[-0.128476,51.479912],[-0.105963,51.488337],[-0.11478,51.503299],[-0.122666,51.507058],[-0.127277,51.50741],[-0.128426,51.511386],[-0.13041,51.516426],[-0.134361,51.520599],[-0.138321,51.524951],[-0.1323,51.528344],[-0.138789,51.534679],[-0.14274,51.539292],[-0.153388,51.544118],[-0.164648,51.550311],[-0.177464,51.556239],[-0.194039,51.572259],[-0.213622,51.57665],[-0.226424,51.583301],[-0.249919,51.595424],[-0.264048,51.602774],[-0.274928,51.613653]]]"
+    ]
+}

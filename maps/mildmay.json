@@ -1,0 +1,295 @@
+{
+    "id": "mildmay",
+    "hex": "#2774ae",
+    "sequences": [
+        {
+            "branchId": 3,
+            "direction": "outbound",
+            "nextBranchIds": [
+                4,
+                5
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Stratford (London) Rail Station",
+                    "lat": 51.541895,
+                    "lon": -0.003397,
+                    "lines": [
+                        "c2c",
+                        "elizabeth",
+                        "greater-anglia",
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Hackney Wick Rail Station",
+                    "lat": 51.54341,
+                    "lon": -0.02492,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Homerton Rail Station",
+                    "lat": 51.547012,
+                    "lon": -0.04236,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Hackney Central Rail Station",
+                    "lat": 51.547105,
+                    "lon": -0.056058,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Dalston Kingsland Rail Station",
+                    "lat": 51.548148,
+                    "lon": -0.075701,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Canonbury Rail Station",
+                    "lat": 51.548732,
+                    "lon": -0.092191,
+                    "lines": [
+                        "236",
+                        "mildmay",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Highbury & Islington Rail Station",
+                    "lat": 51.546177,
+                    "lon": -0.103764,
+                    "lines": [
+                        "great-northern",
+                        "mildmay",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Caledonian Road & Barnsbury Rail Station",
+                    "lat": 51.543041,
+                    "lon": -0.116729,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Camden Road Rail Station",
+                    "lat": 51.541791,
+                    "lon": -0.138701,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Kentish Town West Rail Station",
+                    "lat": 51.546548,
+                    "lon": -0.146655,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Gospel Oak Rail Station",
+                    "lat": 51.555335,
+                    "lon": -0.15077,
+                    "lines": [
+                        "mildmay",
+                        "suffragette"
+                    ]
+                },
+                {
+                    "name": "Hampstead Heath Rail Station",
+                    "lat": 51.55521,
+                    "lon": -0.165705,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Finchley Road & Frognal Rail Station",
+                    "lat": 51.550266,
+                    "lon": -0.183141,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "West Hampstead Rail Station",
+                    "lat": 51.547468,
+                    "lon": -0.191185,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Brondesbury Rail Station",
+                    "lat": 51.545166,
+                    "lon": -0.202309,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Brondesbury Park Rail Station",
+                    "lat": 51.540734,
+                    "lon": -0.210054,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Kensal Rise Rail Station",
+                    "lat": 51.534554,
+                    "lon": -0.219957,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Willesden Junction Rail Station",
+                    "lat": 51.532497,
+                    "lon": -0.244548,
+                    "lines": [
+                        "lioness",
+                        "mildmay"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 4,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                3
+            ],
+            "sequences": [
+                {
+                    "name": "Willesden Junction Rail Station",
+                    "lat": 51.532497,
+                    "lon": -0.244548,
+                    "lines": [
+                        "lioness",
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Acton Central Rail Station",
+                    "lat": 51.508716,
+                    "lon": -0.262971,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "South Acton Rail Station",
+                    "lat": 51.499695,
+                    "lon": -0.270157,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Gunnersbury Rail Station",
+                    "lat": 51.491678,
+                    "lon": -0.275286,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Kew Gardens Rail Station",
+                    "lat": 51.477073,
+                    "lon": -0.285054,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Richmond (London) Rail Station",
+                    "lat": 51.463061,
+                    "lon": -0.301558,
+                    "lines": [
+                        "mildmay",
+                        "south-western-railway"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 5,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                3
+            ],
+            "sequences": [
+                {
+                    "name": "Willesden Junction Rail Station",
+                    "lat": 51.532497,
+                    "lon": -0.244548,
+                    "lines": [
+                        "lioness",
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Shepherds Bush Rail Station",
+                    "lat": 51.505285,
+                    "lon": -0.217654,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Kensington (Olympia) Rail Station",
+                    "lat": 51.497899,
+                    "lon": -0.210364,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "West Brompton Rail Station",
+                    "lat": 51.487061,
+                    "lon": -0.195593,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Imperial Wharf Rail Station",
+                    "lat": 51.474949,
+                    "lon": -0.182823,
+                    "lines": [
+                        "mildmay"
+                    ]
+                },
+                {
+                    "name": "Clapham Junction Rail Station",
+                    "lat": 51.464188,
+                    "lon": -0.170293,
+                    "lines": [
+                        "mildmay",
+                        "southern",
+                        "south-western-railway"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.003397,51.541895],[-0.02492,51.54341],[-0.04236,51.547012],[-0.056058,51.547105],[-0.075701,51.548148],[-0.092191,51.548732],[-0.103764,51.546177],[-0.116729,51.543041],[-0.138701,51.541791],[-0.146655,51.546548],[-0.15077,51.555335],[-0.165705,51.55521],[-0.183141,51.550266],[-0.191185,51.547468],[-0.202309,51.545166],[-0.210054,51.540734],[-0.219957,51.534554],[-0.244548,51.532497],[-0.262971,51.508716],[-0.270157,51.499695],[-0.275286,51.491678],[-0.285054,51.477073],[-0.301558,51.463061]]]",
+        "[[[-0.003397,51.541895],[-0.02492,51.54341],[-0.04236,51.547012],[-0.056058,51.547105],[-0.075701,51.548148],[-0.092191,51.548732],[-0.103764,51.546177],[-0.116729,51.543041],[-0.138701,51.541791],[-0.146655,51.546548],[-0.15077,51.555335],[-0.165705,51.55521],[-0.183141,51.550266],[-0.191185,51.547468],[-0.202309,51.545166],[-0.210054,51.540734],[-0.219957,51.534554],[-0.244548,51.532497],[-0.217654,51.505285],[-0.210364,51.497899],[-0.195593,51.487061],[-0.182823,51.474949],[-0.170293,51.464188]]]"
+    ]
+}

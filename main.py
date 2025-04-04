@@ -3,9 +3,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urllib.parse import urlparse, parse_qs
+import requests
 import csv
+from bs4 import BeautifulSoup
 
+LOCATION = "London"
+PRICE_PER_MONTH = 900
 CSV_FILE = "spareroom_listings.csv"
+MIN_AGE = 33
+GENDER_SHARE = "malesShare" # femalesShare, malesShare, couplesShare
 
 def handle_reg_popup(driver):
     try:
@@ -72,7 +78,7 @@ def write_to_csv(data):
         writer = csv.writer(f)
         writer.writerow(data)
 
-def main():
+def scrape_spareroom():
     print("[INFO] Starting browser...")
     driver = webdriver.Chrome()
     
@@ -87,13 +93,19 @@ def main():
     try:
         # Enter location
         location_box = driver.find_element(By.ID, "search_by_location_field")
-        location_box.send_keys("London")
-        print("  - Set location to London")
+        location_box.send_keys(LOCATION)
+        print(f"  - Set location to {LOCATION}")
 
-        # Example: Set max price
         max_price = driver.find_element(By.NAME, "max_rent")
-        max_price.send_keys("700")
-        print("  - Set max rent to £700")
+        max_price.send_keys(PRICE_PER_MONTH)
+        print(f"  - Set max rent to £{PRICE_PER_MONTH}")
+
+        max_price = driver.find_element(By.NAME, "min_suitable_age")
+        max_price.send_keys(MIN_AGE)
+        print(f"  - Set age to £{MIN_AGE}")
+
+        label = driver.find_element(By.ID, GENDER_SHARE)
+        label.click()
 
         # Click the search button
         search_button = driver.find_element(By.ID, "search-button")
@@ -109,7 +121,7 @@ def main():
     
     # Loop through pages
     page_number = 1
-    while True:
+    while page_number < 2:
         try:
             print(f"[INFO] Scraping page {page_number}...")
 
@@ -140,8 +152,30 @@ def main():
                     title = listing.find_element(By.CSS_SELECTOR, ".listing-card__title").text.strip()
                     price = listing.find_element(By.CSS_SELECTOR, ".listing-card__price").text.strip()
 
+                    page = requests.get(link)
+                    soup = BeautifulSoup(page.text, 'html.parser')
+                    desc = soup.find(class_='detaildesc').get_text(strip=True)
+                    print(f"[INFO] Appending new row desc: {desc}")
+
+                    # Find all key feature items
+                    features = soup.find_all("li", class_="key-features__feature")
+
+                    # Extract text from each feature
+                    extracted_features = []
+                    for feature in features:
+                        text = feature.contents[0].strip()  # Extract the first text node
+                        distance_element = feature.find(class_="key-features__station-distance")
+                        
+                        if distance_element:
+                            text += f" ({distance_element.get_text(strip=True)})"
+                        
+                        extracted_features.append(text)
+
+                    location = f"{extracted_features[1]}, {extracted_features[2]}"
+                    station = extracted_features[3]
+
                     # Save data
-                    write_to_csv([listing_id, title, price, link])
+                    write_to_csv([listing_id, price, location, station, title, link, desc])
                     print(f"  - Saved new listing: {title} ({price})")
 
                 except Exception as e:
@@ -174,4 +208,4 @@ def main():
     driver.quit()
 
 if __name__ == "__main__":
-    main()
+    scrape_spareroom()

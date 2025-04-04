@@ -1,0 +1,251 @@
+{
+    "id": "jubilee",
+    "hex": "#a1a5a7",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Stanmore Underground Station",
+                    "lat": 51.619839,
+                    "lon": -0.303266,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Canons Park Underground Station",
+                    "lat": 51.607701,
+                    "lon": -0.294693,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Queensbury Underground Station",
+                    "lat": 51.594188,
+                    "lon": -0.286219,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Kingsbury Underground Station",
+                    "lat": 51.584845,
+                    "lon": -0.27879,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Wembley Park Underground Station",
+                    "lat": 51.563198,
+                    "lon": -0.279262,
+                    "lines": [
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Neasden Underground Station",
+                    "lat": 51.553986,
+                    "lon": -0.249837,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Dollis Hill Underground Station",
+                    "lat": 51.551955,
+                    "lon": -0.239068,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Willesden Green Underground Station",
+                    "lat": 51.549146,
+                    "lon": -0.221537,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Kilburn Underground Station",
+                    "lat": 51.547183,
+                    "lon": -0.204248,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "West Hampstead Underground Station",
+                    "lat": 51.546638,
+                    "lon": -0.191059,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Finchley Road Underground Station",
+                    "lat": 51.546825,
+                    "lon": -0.179845,
+                    "lines": [
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Swiss Cottage Underground Station",
+                    "lat": 51.543681,
+                    "lon": -0.174894,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "St. John's Wood Underground Station",
+                    "lat": 51.534521,
+                    "lon": -0.173948,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Baker Street Underground Station",
+                    "lat": 51.522883,
+                    "lon": -0.15713,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "hammersmith-city",
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Bond Street Underground Station",
+                    "lat": 51.514304,
+                    "lon": -0.149723,
+                    "lines": [
+                        "central",
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Green Park Underground Station",
+                    "lat": 51.506947,
+                    "lon": -0.142787,
+                    "lines": [
+                        "jubilee",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Westminster Underground Station",
+                    "lat": 51.50132,
+                    "lon": -0.124861,
+                    "lines": [
+                        "circle",
+                        "district",
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Waterloo Underground Station",
+                    "lat": 51.503299,
+                    "lon": -0.11478,
+                    "lines": [
+                        "bakerloo",
+                        "jubilee",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                },
+                {
+                    "name": "Southwark Underground Station",
+                    "lat": 51.50427,
+                    "lon": -0.105331,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "London Bridge Underground Station",
+                    "lat": 51.505721,
+                    "lon": -0.088873,
+                    "lines": [
+                        "jubilee",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Bermondsey Underground Station",
+                    "lat": 51.49775,
+                    "lon": -0.063993,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Canada Water Underground Station",
+                    "lat": 51.497931,
+                    "lon": -0.049405,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Canary Wharf Underground Station",
+                    "lat": 51.503488,
+                    "lon": -0.018246,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "North Greenwich Underground Station",
+                    "lat": 51.50047,
+                    "lon": 0.004287,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Canning Town Underground Station",
+                    "lat": 51.513584,
+                    "lon": 0.008322,
+                    "lines": [
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "West Ham Underground Station",
+                    "lat": 51.528136,
+                    "lon": 0.005055,
+                    "lines": [
+                        "district",
+                        "hammersmith-city",
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Stratford Underground Station",
+                    "lat": 51.541806,
+                    "lon": -0.003458,
+                    "lines": [
+                        "central",
+                        "jubilee"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.303266,51.619839],[-0.294693,51.607701],[-0.286219,51.594188],[-0.27879,51.584845],[-0.279262,51.563198],[-0.249837,51.553986],[-0.239068,51.551955],[-0.221537,51.549146],[-0.204248,51.547183],[-0.191059,51.546638],[-0.179845,51.546825],[-0.174894,51.543681],[-0.173948,51.534521],[-0.15713,51.522883],[-0.149723,51.514304],[-0.142787,51.506947],[-0.124861,51.50132],[-0.11478,51.503299],[-0.105331,51.50427],[-0.088873,51.505721],[-0.063993,51.49775],[-0.049405,51.497931],[-0.018246,51.503488],[0.004287,51.50047],[0.008322,51.513584],[0.005055,51.528136],[-0.003458,51.541806]]]"
+    ]
+}

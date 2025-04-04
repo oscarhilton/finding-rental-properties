@@ -1,0 +1,464 @@
+{
+    "id": "metropolitan",
+    "hex": "#9b0058",
+    "sequences": [
+        {
+            "branchId": 8,
+            "direction": "outbound",
+            "nextBranchIds": [
+                15
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Amersham Underground Station",
+                    "lat": 51.674126,
+                    "lon": -0.607714,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Chalfont & Latimer Underground Station",
+                    "lat": 51.667985,
+                    "lon": -0.560689,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 15,
+            "direction": "outbound",
+            "nextBranchIds": [
+                13
+            ],
+            "prevBranchIds": [
+                8,
+                10
+            ],
+            "sequences": [
+                {
+                    "name": "Chalfont & Latimer Underground Station",
+                    "lat": 51.667985,
+                    "lon": -0.560689,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Chorleywood Underground Station",
+                    "lat": 51.654358,
+                    "lon": -0.518461,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Rickmansworth Underground Station",
+                    "lat": 51.640207,
+                    "lon": -0.473703,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Moor Park Underground Station",
+                    "lat": 51.629845,
+                    "lon": -0.432454,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 13,
+            "direction": "outbound",
+            "nextBranchIds": [
+                11,
+                12
+            ],
+            "prevBranchIds": [
+                15,
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "Moor Park Underground Station",
+                    "lat": 51.629845,
+                    "lon": -0.432454,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Northwood Underground Station",
+                    "lat": 51.611053,
+                    "lon": -0.423829,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Northwood Hills Underground Station",
+                    "lat": 51.600572,
+                    "lon": -0.409464,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Pinner Underground Station",
+                    "lat": 51.592901,
+                    "lon": -0.381161,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "North Harrow Underground Station",
+                    "lat": 51.584872,
+                    "lon": -0.362408,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Harrow-on-the-Hill Underground Station",
+                    "lat": 51.579195,
+                    "lon": -0.337225,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 11,
+            "direction": "outbound",
+            "nextBranchIds": [
+                14
+            ],
+            "prevBranchIds": [
+                13,
+                9
+            ],
+            "sequences": [
+                {
+                    "name": "Harrow-on-the-Hill Underground Station",
+                    "lat": 51.579195,
+                    "lon": -0.337225,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Northwick Park Underground Station",
+                    "lat": 51.578481,
+                    "lon": -0.318056,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Preston Road Underground Station",
+                    "lat": 51.571972,
+                    "lon": -0.295107,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Wembley Park Underground Station",
+                    "lat": 51.563198,
+                    "lon": -0.279262,
+                    "lines": [
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 14,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                11
+            ],
+            "sequences": [
+                {
+                    "name": "Wembley Park Underground Station",
+                    "lat": 51.563198,
+                    "lon": -0.279262,
+                    "lines": [
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Finchley Road Underground Station",
+                    "lat": 51.546825,
+                    "lon": -0.179845,
+                    "lines": [
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Baker Street Underground Station",
+                    "lat": 51.522883,
+                    "lon": -0.15713,
+                    "lines": [
+                        "bakerloo",
+                        "circle",
+                        "hammersmith-city",
+                        "jubilee",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Great Portland Street Underground Station",
+                    "lat": 51.52384,
+                    "lon": -0.144262,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Euston Square Underground Station",
+                    "lat": 51.525604,
+                    "lon": -0.135829,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "King's Cross St. Pancras Underground Station",
+                    "lat": 51.530663,
+                    "lon": -0.123194,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Farringdon Underground Station",
+                    "lat": 51.520252,
+                    "lon": -0.104913,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Barbican Underground Station",
+                    "lat": 51.520275,
+                    "lon": -0.097993,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Moorgate Underground Station",
+                    "lat": 51.518176,
+                    "lon": -0.088322,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Liverpool Street Underground Station",
+                    "lat": 51.517372,
+                    "lon": -0.083182,
+                    "lines": [
+                        "central",
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Aldgate Underground Station",
+                    "lat": 51.514246,
+                    "lon": -0.075689,
+                    "lines": [
+                        "circle",
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 10,
+            "direction": "outbound",
+            "nextBranchIds": [
+                15
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Chesham Underground Station",
+                    "lat": 51.705208,
+                    "lon": -0.611247,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Chalfont & Latimer Underground Station",
+                    "lat": 51.667985,
+                    "lon": -0.560689,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 9,
+            "direction": "outbound",
+            "nextBranchIds": [
+                11
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Uxbridge Underground Station",
+                    "lat": 51.546565,
+                    "lon": -0.477949,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Hillingdon Underground Station",
+                    "lat": 51.553715,
+                    "lon": -0.449828,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ickenham Underground Station",
+                    "lat": 51.561992,
+                    "lon": -0.442001,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ruislip Underground Station",
+                    "lat": 51.571354,
+                    "lon": -0.421898,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Ruislip Manor Underground Station",
+                    "lat": 51.573202,
+                    "lon": -0.412973,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Eastcote Underground Station",
+                    "lat": 51.576506,
+                    "lon": -0.397373,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Rayners Lane Underground Station",
+                    "lat": 51.575147,
+                    "lon": -0.371127,
+                    "lines": [
+                        "metropolitan",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "West Harrow Underground Station",
+                    "lat": 51.57971,
+                    "lon": -0.3534,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Harrow-on-the-Hill Underground Station",
+                    "lat": 51.579195,
+                    "lon": -0.337225,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 7,
+            "direction": "outbound",
+            "nextBranchIds": [
+                13
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Watford Underground Station",
+                    "lat": 51.657446,
+                    "lon": -0.417377,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Croxley Underground Station",
+                    "lat": 51.647044,
+                    "lon": -0.441718,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Moor Park Underground Station",
+                    "lat": 51.629845,
+                    "lon": -0.432454,
+                    "lines": [
+                        "metropolitan"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.607714,51.674126],[-0.560689,51.667985],[-0.518461,51.654358],[-0.473703,51.640207],[-0.432454,51.629845],[-0.423829,51.611053],[-0.409464,51.600572],[-0.381161,51.592901],[-0.362408,51.584872],[-0.337225,51.579195],[-0.318056,51.578481],[-0.295107,51.571972],[-0.279262,51.563198],[-0.179845,51.546825],[-0.15713,51.522883],[-0.144262,51.52384],[-0.135829,51.525604],[-0.123194,51.530663],[-0.104913,51.520252],[-0.097993,51.520275],[-0.088322,51.518176],[-0.083182,51.517372],[-0.075689,51.514246]]]",
+        "[[[-0.611247,51.705208],[-0.560689,51.667985],[-0.518461,51.654358],[-0.473703,51.640207],[-0.432454,51.629845],[-0.423829,51.611053],[-0.409464,51.600572],[-0.381161,51.592901],[-0.362408,51.584872],[-0.337225,51.579195],[-0.318056,51.578481],[-0.295107,51.571972],[-0.279262,51.563198],[-0.179845,51.546825],[-0.15713,51.522883],[-0.144262,51.52384],[-0.135829,51.525604],[-0.123194,51.530663],[-0.104913,51.520252],[-0.097993,51.520275],[-0.088322,51.518176],[-0.083182,51.517372],[-0.075689,51.514246]]]",
+        "[[[-0.477949,51.546565],[-0.449828,51.553715],[-0.442001,51.561992],[-0.421898,51.571354],[-0.412973,51.573202],[-0.397373,51.576506],[-0.371127,51.575147],[-0.3534,51.57971],[-0.337225,51.579195],[-0.318056,51.578481],[-0.295107,51.571972],[-0.279262,51.563198],[-0.179845,51.546825],[-0.15713,51.522883],[-0.144262,51.52384],[-0.135829,51.525604],[-0.123194,51.530663],[-0.104913,51.520252],[-0.097993,51.520275],[-0.088322,51.518176],[-0.083182,51.517372],[-0.075689,51.514246]]]",
+        "[[[-0.417377,51.657446],[-0.441718,51.647044],[-0.432454,51.629845],[-0.423829,51.611053],[-0.409464,51.600572],[-0.381161,51.592901],[-0.362408,51.584872],[-0.337225,51.579195],[-0.318056,51.578481],[-0.295107,51.571972],[-0.279262,51.563198],[-0.179845,51.546825],[-0.15713,51.522883],[-0.144262,51.52384],[-0.135829,51.525604],[-0.123194,51.530663],[-0.104913,51.520252],[-0.097993,51.520275],[-0.088322,51.518176],[-0.083182,51.517372],[-0.075689,51.514246]]]"
+    ]
+}

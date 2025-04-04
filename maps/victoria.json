@@ -1,0 +1,160 @@
+{
+    "id": "victoria",
+    "hex": "#0098d8",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Brixton Underground Station",
+                    "lat": 51.462618,
+                    "lon": -0.114888,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Stockwell Underground Station",
+                    "lat": 51.472184,
+                    "lon": -0.122644,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Vauxhall Underground Station",
+                    "lat": 51.485743,
+                    "lon": -0.124204,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Pimlico Underground Station",
+                    "lat": 51.489097,
+                    "lon": -0.133761,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Victoria Underground Station",
+                    "lat": 51.496359,
+                    "lon": -0.143102,
+                    "lines": [
+                        "circle",
+                        "district",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Green Park Underground Station",
+                    "lat": 51.506947,
+                    "lon": -0.142787,
+                    "lines": [
+                        "jubilee",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Oxford Circus Underground Station",
+                    "lat": 51.515224,
+                    "lon": -0.141903,
+                    "lines": [
+                        "bakerloo",
+                        "central",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Warren Street Underground Station",
+                    "lat": 51.524951,
+                    "lon": -0.138321,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Euston Underground Station",
+                    "lat": 51.528344,
+                    "lon": -0.1323,
+                    "lines": [
+                        "northern",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "King's Cross St. Pancras Underground Station",
+                    "lat": 51.530663,
+                    "lon": -0.123194,
+                    "lines": [
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan",
+                        "northern",
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Highbury & Islington Underground Station",
+                    "lat": 51.54635,
+                    "lon": -0.103324,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Finsbury Park Underground Station",
+                    "lat": 51.564158,
+                    "lon": -0.106825,
+                    "lines": [
+                        "piccadilly",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Seven Sisters Underground Station",
+                    "lat": 51.58333,
+                    "lon": -0.072584,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Tottenham Hale Underground Station",
+                    "lat": 51.588108,
+                    "lon": -0.060241,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Blackhorse Road Underground Station",
+                    "lat": 51.586919,
+                    "lon": -0.04115,
+                    "lines": [
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Walthamstow Central Underground Station",
+                    "lat": 51.582965,
+                    "lon": -0.019885,
+                    "lines": [
+                        "victoria"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.114888,51.462618],[-0.122644,51.472184],[-0.124204,51.485743],[-0.133761,51.489097],[-0.143102,51.496359],[-0.142787,51.506947],[-0.141903,51.515224],[-0.138321,51.524951],[-0.1323,51.528344],[-0.123194,51.530663],[-0.103324,51.54635],[-0.106825,51.564158],[-0.072584,51.58333],[-0.060241,51.588108],[-0.04115,51.586919],[-0.019885,51.582965]]]"
+    ]
+}

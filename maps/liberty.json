@@ -1,0 +1,44 @@
+{
+    "id": "liberty",
+    "hex": "#606667",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Romford Rail Station",
+                    "lat": 51.574829,
+                    "lon": 0.183237,
+                    "lines": [
+                        "elizabeth",
+                        "greater-anglia",
+                        "liberty"
+                    ]
+                },
+                {
+                    "name": "Emerson Park Rail Station",
+                    "lat": 51.568642,
+                    "lon": 0.220113,
+                    "lines": [
+                        "liberty"
+                    ]
+                },
+                {
+                    "name": "Upminster Rail Station",
+                    "lat": 51.559018,
+                    "lon": 0.25088,
+                    "lines": [
+                        "c2c",
+                        "liberty"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[0.183237,51.574829],[0.220113,51.568642],[0.25088,51.559018]]]"
+    ]
+}

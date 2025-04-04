@@ -1,0 +1,566 @@
+{
+    "id": "central",
+    "hex": "#dc241f",
+    "sequences": [
+        {
+            "branchId": 8,
+            "direction": "outbound",
+            "nextBranchIds": [
+                13
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "West Ruislip Underground Station",
+                    "lat": 51.569688,
+                    "lon": -0.437886,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Ruislip Gardens Underground Station",
+                    "lat": 51.560736,
+                    "lon": -0.41071,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "South Ruislip Underground Station",
+                    "lat": 51.556853,
+                    "lon": -0.398915,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Northolt Underground Station",
+                    "lat": 51.548236,
+                    "lon": -0.368699,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Greenford Underground Station",
+                    "lat": 51.542424,
+                    "lon": -0.34605,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Perivale Underground Station",
+                    "lat": 51.536717,
+                    "lon": -0.323446,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Hanger Lane Underground Station",
+                    "lat": 51.530177,
+                    "lon": -0.292704,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "North Acton Underground Station",
+                    "lat": 51.523524,
+                    "lon": -0.259755,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 13,
+            "direction": "outbound",
+            "nextBranchIds": [
+                11,
+                12
+            ],
+            "prevBranchIds": [
+                8,
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "North Acton Underground Station",
+                    "lat": 51.523524,
+                    "lon": -0.259755,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "East Acton Underground Station",
+                    "lat": 51.516612,
+                    "lon": -0.247248,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "White City Underground Station",
+                    "lat": 51.511959,
+                    "lon": -0.224297,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Shepherd's Bush (Central) Underground Station",
+                    "lat": 51.504376,
+                    "lon": -0.218813,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Holland Park Underground Station",
+                    "lat": 51.507143,
+                    "lon": -0.205679,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Notting Hill Gate Underground Station",
+                    "lat": 51.509128,
+                    "lon": -0.196104,
+                    "lines": [
+                        "central",
+                        "circle",
+                        "district"
+                    ]
+                },
+                {
+                    "name": "Queensway Underground Station",
+                    "lat": 51.510312,
+                    "lon": -0.187152,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Lancaster Gate Underground Station",
+                    "lat": 51.511723,
+                    "lon": -0.175494,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Marble Arch Underground Station",
+                    "lat": 51.513424,
+                    "lon": -0.158953,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Bond Street Underground Station",
+                    "lat": 51.514304,
+                    "lon": -0.149723,
+                    "lines": [
+                        "central",
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Oxford Circus Underground Station",
+                    "lat": 51.515224,
+                    "lon": -0.141903,
+                    "lines": [
+                        "bakerloo",
+                        "central",
+                        "victoria"
+                    ]
+                },
+                {
+                    "name": "Tottenham Court Road Underground Station",
+                    "lat": 51.516426,
+                    "lon": -0.13041,
+                    "lines": [
+                        "central",
+                        "northern"
+                    ]
+                },
+                {
+                    "name": "Holborn Underground Station",
+                    "lat": 51.51758,
+                    "lon": -0.120475,
+                    "lines": [
+                        "central",
+                        "piccadilly"
+                    ]
+                },
+                {
+                    "name": "Chancery Lane Underground Station",
+                    "lat": 51.518247,
+                    "lon": -0.111583,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "St. Paul's Underground Station",
+                    "lat": 51.514936,
+                    "lon": -0.097567,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Bank Underground Station",
+                    "lat": 51.513335,
+                    "lon": -0.088712,
+                    "lines": [
+                        "central",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                },
+                {
+                    "name": "Liverpool Street Underground Station",
+                    "lat": 51.517372,
+                    "lon": -0.083182,
+                    "lines": [
+                        "central",
+                        "circle",
+                        "hammersmith-city",
+                        "metropolitan"
+                    ]
+                },
+                {
+                    "name": "Bethnal Green Underground Station",
+                    "lat": 51.527222,
+                    "lon": -0.055506,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Mile End Underground Station",
+                    "lat": 51.525122,
+                    "lon": -0.03364,
+                    "lines": [
+                        "central",
+                        "district",
+                        "hammersmith-city"
+                    ]
+                },
+                {
+                    "name": "Stratford Underground Station",
+                    "lat": 51.541806,
+                    "lon": -0.003458,
+                    "lines": [
+                        "central",
+                        "jubilee"
+                    ]
+                },
+                {
+                    "name": "Leyton Underground Station",
+                    "lat": 51.556589,
+                    "lon": -0.005523,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Leytonstone Underground Station",
+                    "lat": 51.568324,
+                    "lon": 0.008194,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 11,
+            "direction": "outbound",
+            "nextBranchIds": [
+                9,
+                10
+            ],
+            "prevBranchIds": [
+                13
+            ],
+            "sequences": [
+                {
+                    "name": "Leytonstone Underground Station",
+                    "lat": 51.568324,
+                    "lon": 0.008194,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Snaresbrook Underground Station",
+                    "lat": 51.580678,
+                    "lon": 0.02144,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "South Woodford Underground Station",
+                    "lat": 51.591907,
+                    "lon": 0.027338,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Woodford Underground Station",
+                    "lat": 51.606899,
+                    "lon": 0.03397,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 10,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                11
+            ],
+            "sequences": [
+                {
+                    "name": "Woodford Underground Station",
+                    "lat": 51.606899,
+                    "lon": 0.03397,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Buckhurst Hill Underground Station",
+                    "lat": 51.626605,
+                    "lon": 0.046757,
+                    "lines": [
+                        "167",
+                        "677",
+                        "central",
+                        "w14"
+                    ]
+                },
+                {
+                    "name": "Loughton Underground Station",
+                    "lat": 51.641443,
+                    "lon": 0.055476,
+                    "lines": [
+                        "167",
+                        "20",
+                        "397",
+                        "677",
+                        "central",
+                        "w14"
+                    ]
+                },
+                {
+                    "name": "Debden Underground Station",
+                    "lat": 51.645386,
+                    "lon": 0.083782,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Theydon Bois Underground Station",
+                    "lat": 51.671759,
+                    "lon": 0.103085,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Epping Underground Station",
+                    "lat": 51.69368,
+                    "lon": 0.113767,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 12,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                13
+            ],
+            "sequences": [
+                {
+                    "name": "Leytonstone Underground Station",
+                    "lat": 51.568324,
+                    "lon": 0.008194,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Wanstead Underground Station",
+                    "lat": 51.575501,
+                    "lon": 0.028527,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Redbridge Underground Station",
+                    "lat": 51.576243,
+                    "lon": 0.04536,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Gants Hill Underground Station",
+                    "lat": 51.576544,
+                    "lon": 0.066185,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Newbury Park Underground Station",
+                    "lat": 51.575726,
+                    "lon": 0.090004,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Barkingside Underground Station",
+                    "lat": 51.585689,
+                    "lon": 0.088585,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Fairlop Underground Station",
+                    "lat": 51.595618,
+                    "lon": 0.091004,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Hainault Underground Station",
+                    "lat": 51.603659,
+                    "lon": 0.093482,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 9,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                11
+            ],
+            "sequences": [
+                {
+                    "name": "Woodford Underground Station",
+                    "lat": 51.606899,
+                    "lon": 0.03397,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Roding Valley Underground Station",
+                    "lat": 51.617199,
+                    "lon": 0.043647,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Chigwell Underground Station",
+                    "lat": 51.617916,
+                    "lon": 0.075041,
+                    "lines": [
+                        "167",
+                        "667",
+                        "677",
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Grange Hill Underground Station",
+                    "lat": 51.613378,
+                    "lon": 0.092066,
+                    "lines": [
+                        "462",
+                        "central"
+                    ]
+                },
+                {
+                    "name": "Hainault Underground Station",
+                    "lat": 51.603659,
+                    "lon": 0.093482,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 7,
+            "direction": "outbound",
+            "nextBranchIds": [
+                13
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Ealing Broadway Underground Station",
+                    "lat": 51.515017,
+                    "lon": -0.301457,
+                    "lines": [
+                        "central",
+                        "district"
+                    ]
+                },
+                {
+                    "name": "West Acton Underground Station",
+                    "lat": 51.518001,
+                    "lon": -0.28098,
+                    "lines": [
+                        "central"
+                    ]
+                },
+                {
+                    "name": "North Acton Underground Station",
+                    "lat": 51.523524,
+                    "lon": -0.259755,
+                    "lines": [
+                        "central"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.437886,51.569688],[-0.41071,51.560736],[-0.398915,51.556853],[-0.368699,51.548236],[-0.34605,51.542424],[-0.323446,51.536717],[-0.292704,51.530177],[-0.259755,51.523524],[-0.247248,51.516612],[-0.224297,51.511959],[-0.218813,51.504376],[-0.205679,51.507143],[-0.196104,51.509128],[-0.187152,51.510312],[-0.175494,51.511723],[-0.158953,51.513424],[-0.149723,51.514304],[-0.141903,51.515224],[-0.13041,51.516426],[-0.120475,51.51758],[-0.111583,51.518247],[-0.097567,51.514936],[-0.088712,51.513335],[-0.083182,51.517372],[-0.055506,51.527222],[-0.03364,51.525122],[-0.003458,51.541806],[-0.005523,51.556589],[0.008194,51.568324],[0.02144,51.580678],[0.027338,51.591907],[0.03397,51.606899],[0.046757,51.626605],[0.055476,51.641443],[0.083782,51.645386],[0.103085,51.671759],[0.113767,51.69368]]]",
+        "[[[-0.437886,51.569688],[-0.41071,51.560736],[-0.398915,51.556853],[-0.368699,51.548236],[-0.34605,51.542424],[-0.323446,51.536717],[-0.292704,51.530177],[-0.259755,51.523524],[-0.247248,51.516612],[-0.224297,51.511959],[-0.218813,51.504376],[-0.205679,51.507143],[-0.196104,51.509128],[-0.187152,51.510312],[-0.175494,51.511723],[-0.158953,51.513424],[-0.149723,51.514304],[-0.141903,51.515224],[-0.13041,51.516426],[-0.120475,51.51758],[-0.111583,51.518247],[-0.097567,51.514936],[-0.088712,51.513335],[-0.083182,51.517372],[-0.055506,51.527222],[-0.03364,51.525122],[-0.003458,51.541806],[-0.005523,51.556589],[0.008194,51.568324],[0.028527,51.575501],[0.04536,51.576243],[0.066185,51.576544],[0.090004,51.575726],[0.088585,51.585689],[0.091004,51.595618],[0.093482,51.603659]]]",
+        "[[[-0.437886,51.569688],[-0.41071,51.560736],[-0.398915,51.556853],[-0.368699,51.548236],[-0.34605,51.542424],[-0.323446,51.536717],[-0.292704,51.530177],[-0.259755,51.523524],[-0.247248,51.516612],[-0.224297,51.511959],[-0.218813,51.504376],[-0.205679,51.507143],[-0.196104,51.509128],[-0.187152,51.510312],[-0.175494,51.511723],[-0.158953,51.513424],[-0.149723,51.514304],[-0.141903,51.515224],[-0.13041,51.516426],[-0.120475,51.51758],[-0.111583,51.518247],[-0.097567,51.514936],[-0.088712,51.513335],[-0.083182,51.517372],[-0.055506,51.527222],[-0.03364,51.525122],[-0.003458,51.541806],[-0.005523,51.556589],[0.008194,51.568324],[0.02144,51.580678],[0.027338,51.591907],[0.03397,51.606899],[0.043647,51.617199],[0.075041,51.617916],[0.092066,51.613378],[0.093482,51.603659]]]",
+        "[[[-0.301457,51.515017],[-0.28098,51.518001],[-0.259755,51.523524],[-0.247248,51.516612],[-0.224297,51.511959],[-0.218813,51.504376],[-0.205679,51.507143],[-0.196104,51.509128],[-0.187152,51.510312],[-0.175494,51.511723],[-0.158953,51.513424],[-0.149723,51.514304],[-0.141903,51.515224],[-0.13041,51.516426],[-0.120475,51.51758],[-0.111583,51.518247],[-0.097567,51.514936],[-0.088712,51.513335],[-0.083182,51.517372],[-0.055506,51.527222],[-0.03364,51.525122],[-0.003458,51.541806],[-0.005523,51.556589],[0.008194,51.568324],[0.02144,51.580678],[0.027338,51.591907],[0.03397,51.606899],[0.046757,51.626605],[0.055476,51.641443],[0.083782,51.645386],[0.103085,51.671759],[0.113767,51.69368]]]",
+        "[[[-0.301457,51.515017],[-0.28098,51.518001],[-0.259755,51.523524],[-0.247248,51.516612],[-0.224297,51.511959],[-0.218813,51.504376],[-0.205679,51.507143],[-0.196104,51.509128],[-0.187152,51.510312],[-0.175494,51.511723],[-0.158953,51.513424],[-0.149723,51.514304],[-0.141903,51.515224],[-0.13041,51.516426],[-0.120475,51.51758],[-0.111583,51.518247],[-0.097567,51.514936],[-0.088712,51.513335],[-0.083182,51.517372],[-0.055506,51.527222],[-0.03364,51.525122],[-0.003458,51.541806],[-0.005523,51.556589],[0.008194,51.568324],[0.028527,51.575501],[0.04536,51.576243],[0.066185,51.576544],[0.090004,51.575726],[0.088585,51.585689],[0.091004,51.595618],[0.093482,51.603659]]]"
+    ]
+}

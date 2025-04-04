@@ -1,0 +1,383 @@
+{
+    "id": "windrush",
+    "hex": "#d22730",
+    "sequences": [
+        {
+            "branchId": 6,
+            "direction": "outbound",
+            "nextBranchIds": [
+                7,
+                8,
+                9
+            ],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Highbury & Islington Rail Station",
+                    "lat": 51.546177,
+                    "lon": -0.103764,
+                    "lines": [
+                        "great-northern",
+                        "mildmay",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Canonbury Rail Station",
+                    "lat": 51.548732,
+                    "lon": -0.092191,
+                    "lines": [
+                        "236",
+                        "mildmay",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Dalston Junction Rail Station",
+                    "lat": 51.546116,
+                    "lon": -0.075137,
+                    "lines": [
+                        "149",
+                        "242",
+                        "243",
+                        "277",
+                        "488",
+                        "67",
+                        "76",
+                        "n242",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Haggerston Rail Station",
+                    "lat": 51.538705,
+                    "lon": -0.075666,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Hoxton Rail Station",
+                    "lat": 51.531512,
+                    "lon": -0.075681,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Shoreditch High Street Rail Station",
+                    "lat": 51.523375,
+                    "lon": -0.075246,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Whitechapel Rail Station",
+                    "lat": 51.519469,
+                    "lon": -0.059757,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Shadwell Rail Station",
+                    "lat": 51.511284,
+                    "lon": -0.056934,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Wapping Rail Station",
+                    "lat": 51.504388,
+                    "lon": -0.055931,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Rotherhithe Rail Station",
+                    "lat": 51.500817,
+                    "lon": -0.052048,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Canada Water Rail Station",
+                    "lat": 51.49799,
+                    "lon": -0.04972,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Surrey Quays Rail Station",
+                    "lat": 51.493196,
+                    "lon": -0.047519,
+                    "lines": [
+                        "windrush"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 7,
+            "direction": "outbound",
+            "nextBranchIds": [
+                10,
+                11
+            ],
+            "prevBranchIds": [
+                6
+            ],
+            "sequences": [
+                {
+                    "name": "Surrey Quays Rail Station",
+                    "lat": 51.493196,
+                    "lon": -0.047519,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "New Cross Gate Rail Station",
+                    "lat": 51.475128,
+                    "lon": -0.040399,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Brockley Rail Station",
+                    "lat": 51.464649,
+                    "lon": -0.037537,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Honor Oak Park Rail Station",
+                    "lat": 51.449989,
+                    "lon": -0.045505,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Forest Hill Rail Station",
+                    "lat": 51.43928,
+                    "lon": -0.053157,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Sydenham Rail Station",
+                    "lat": 51.427248,
+                    "lon": -0.054244,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 10,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "Sydenham Rail Station",
+                    "lat": 51.427248,
+                    "lon": -0.054244,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Penge West Rail Station",
+                    "lat": 51.417555,
+                    "lon": -0.06084,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Anerley Rail Station",
+                    "lat": 51.412153,
+                    "lon": -0.065886,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Norwood Junction Rail Station",
+                    "lat": 51.397019,
+                    "lon": -0.075221,
+                    "lines": [
+                        "southeastern",
+                        "southern",
+                        "thameslink",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "West Croydon Rail Station",
+                    "lat": 51.378428,
+                    "lon": -0.102585,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 9,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                6
+            ],
+            "sequences": [
+                {
+                    "name": "Surrey Quays Rail Station",
+                    "lat": 51.493196,
+                    "lon": -0.047519,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Queens Road Peckham Rail Station",
+                    "lat": 51.473566,
+                    "lon": -0.057313,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Peckham Rye Rail Station",
+                    "lat": 51.470034,
+                    "lon": -0.069414,
+                    "lines": [
+                        "southeastern",
+                        "southern",
+                        "thameslink",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Denmark Hill Rail Station",
+                    "lat": 51.468203,
+                    "lon": -0.089361,
+                    "lines": [
+                        "southeastern",
+                        "thameslink",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Clapham High Street Rail Station",
+                    "lat": 51.465481,
+                    "lon": -0.132522,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Wandsworth Road Rail Station",
+                    "lat": 51.470216,
+                    "lon": -0.13852,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Clapham Junction Rail Station",
+                    "lat": 51.464187,
+                    "lon": -0.170221,
+                    "lines": [
+                        "mildmay",
+                        "windrush"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 11,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                7
+            ],
+            "sequences": [
+                {
+                    "name": "Sydenham Rail Station",
+                    "lat": 51.427248,
+                    "lon": -0.054244,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "Crystal Palace Rail Station",
+                    "lat": 51.418109,
+                    "lon": -0.07261,
+                    "lines": [
+                        "southern",
+                        "windrush"
+                    ]
+                }
+            ]
+        },
+        {
+            "branchId": 8,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [
+                6
+            ],
+            "sequences": [
+                {
+                    "name": "Surrey Quays Rail Station",
+                    "lat": 51.493196,
+                    "lon": -0.047519,
+                    "lines": [
+                        "windrush"
+                    ]
+                },
+                {
+                    "name": "New Cross ELL Rail Station",
+                    "lat": 51.476344,
+                    "lon": -0.032441,
+                    "lines": [
+                        "southeastern",
+                        "windrush"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.103764,51.546177],[-0.092191,51.548732],[-0.075137,51.546116],[-0.075666,51.538705],[-0.075681,51.531512],[-0.075246,51.523375],[-0.059757,51.519469],[-0.056934,51.511284],[-0.055931,51.504388],[-0.052048,51.500817],[-0.04972,51.49799],[-0.047519,51.493196],[-0.040399,51.475128],[-0.037537,51.464649],[-0.045505,51.449989],[-0.053157,51.43928],[-0.054244,51.427248],[-0.06084,51.417555],[-0.065886,51.412153],[-0.075221,51.397019],[-0.102585,51.378428]]]",
+        "[[[-0.103764,51.546177],[-0.092191,51.548732],[-0.075137,51.546116],[-0.075666,51.538705],[-0.075681,51.531512],[-0.075246,51.523375],[-0.059757,51.519469],[-0.056934,51.511284],[-0.055931,51.504388],[-0.052048,51.500817],[-0.04972,51.49799],[-0.047519,51.493196],[-0.057313,51.473566],[-0.069414,51.470034],[-0.089361,51.468203],[-0.132522,51.465481],[-0.13852,51.470216],[-0.170221,51.464187]]]",
+        "[[[-0.103764,51.546177],[-0.092191,51.548732],[-0.075137,51.546116],[-0.075666,51.538705],[-0.075681,51.531512],[-0.075246,51.523375],[-0.059757,51.519469],[-0.056934,51.511284],[-0.055931,51.504388],[-0.052048,51.500817],[-0.04972,51.49799],[-0.047519,51.493196],[-0.040399,51.475128],[-0.037537,51.464649],[-0.045505,51.449989],[-0.053157,51.43928],[-0.054244,51.427248],[-0.07261,51.418109]]]",
+        "[[[-0.103764,51.546177],[-0.092191,51.548732],[-0.075137,51.546116],[-0.075666,51.538705],[-0.075681,51.531512],[-0.075246,51.523375],[-0.059757,51.519469],[-0.056934,51.511284],[-0.055931,51.504388],[-0.052048,51.500817],[-0.04972,51.49799],[-0.047519,51.493196],[-0.032441,51.476344]]]"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "id": "waterloo-city",
+    "hex": "#93ceba",
+    "sequences": [
+        {
+            "branchId": 1,
+            "direction": "outbound",
+            "nextBranchIds": [],
+            "prevBranchIds": [],
+            "sequences": [
+                {
+                    "name": "Waterloo Underground Station",
+                    "lat": 51.503299,
+                    "lon": -0.11478,
+                    "lines": [
+                        "bakerloo",
+                        "jubilee",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                },
+                {
+                    "name": "Bank Underground Station",
+                    "lat": 51.513335,
+                    "lon": -0.088712,
+                    "lines": [
+                        "central",
+                        "northern",
+                        "waterloo-city"
+                    ]
+                }
+            ]
+        }
+    ],
+    "lineStrings": [
+        "[[[-0.11478,51.503299],[-0.088712,51.513335]]]"
+    ]
+}
