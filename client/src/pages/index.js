@@ -34,8 +34,15 @@ export async function getStaticProps() {
   // Parse the file contents into an array
   const jsonData = JSON.parse(fileContents);
 
-  const route = await fetch(`http://localhost:3000/api/route`);
-  const json = await route.json();
+  let json;
+
+  try {
+    const route = await fetch(`http://localhost:3000/api/route`);
+    json = await route.json();
+  } catch (e) {
+    json = { error: e }
+  }
+
 
   // Return the data as props to the page
   return {
@@ -47,7 +54,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ data, json }) {
-  console.log(json.route)
   return (
     <Layout>
       <Head>
@@ -65,7 +71,7 @@ export default function Home({ data, json }) {
                   url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
                   attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                 />
-                <Polyline positions={json.route} color="black" />
+                <Polyline positions={json && !json.error &&  json.route} color="black" />
                 {!data && data.map(({ lineStrings, hex, sequences }) => (
                     <>
                       <Polyline positions={processLineStrings(lineStrings)} color={hex} />
