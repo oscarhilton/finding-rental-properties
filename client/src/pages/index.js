@@ -10,6 +10,7 @@ import styles from '@styles/Home.module.scss';
 
 import fs from "fs";
 import path from "path";
+import { useState } from 'react';
 
 const DEFAULT_CENTER = [51.5074, -0.1278]; // London Coordinates
 
@@ -34,26 +35,62 @@ export async function getStaticProps() {
   // Parse the file contents into an array
   const jsonData = JSON.parse(fileContents);
 
-  let json;
-
-  try {
-    const route = await fetch(`http://localhost:3000/api/route`);
-    json = await route.json();
-  } catch (e) {
-    json = { error: e }
-  }
-
-
   // Return the data as props to the page
   return {
     props: {
       data: jsonData,
-      json,
     },
   };
 }
 
 export default function Home({ data, json }) {
+  // const [startQuery, setStartQuery] = useState('');
+  // const [endQuery, setEndQuery] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  const [start, setStart] = useState(null);
+  const [end, setEnd] = useState(null);
+
+  const [startDisplayName, setStartDisplayName] = useState('');
+  const [endDisplayName, setEndDisplayName] = useState('');
+
+  const [route, setRoute] = useState([]);
+
+  const getRoute = async () => {
+    setLoading(true);
+    try {
+      const route = await fetch(`http://localhost:3000/api/route`, {
+        headers: {'Content-Type': 'application/json'},
+        method: "POST",
+        body: JSON.stringify({
+          orig: start,
+          dest: end
+        })
+      });
+      json = await route.json();
+      setRoute(json.route)
+    } catch (e) {
+
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const getAddressFromQuery = async (searchTerm, callback) => {
+    if (!searchTerm || searchTerm.length < 3) return
+    setLoading(true);
+    try {
+      const request = await fetch(`https://nominatim.openstreetmap.org/search?q=${searchTerm}&format=json&addressdetails=1&limit=1&polygon_svg=1`)
+      const json = await request.json();
+      const firstResult = json[0];
+      callback(firstResult)
+    } catch (e) {
+      console.log(e);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <Layout>
       <Head>
@@ -64,14 +101,43 @@ export default function Home({ data, json }) {
 
       <Section>
         <Container>
-          <Map className={styles.homeMap} width="1280" height="800" center={[51.448538, -0.355183]} zoom={12}>
+          <div>
+            <Button onClick={getRoute}>Click me</Button>
+          </div>
+          <div>
+            <Button onClick={() => getAddressFromQuery("TW2 6JA", (result) => {
+              setStartDisplayName(result.display_name)
+              setStart([result.lat, result.lon])
+            })}>Get TW2 6JA</Button>
+          </div>
+          <div>
+            <Button onClick={() => getAddressFromQuery("Southall", (result) => {
+              setEndDisplayName(result.display_name)
+              setEnd([result.lat, result.lon])
+            })}>Get Southall</Button>
+          </div>
+          {!!startDisplayName && (
+            <div>
+              <h2>Start</h2>
+              <h4>{startDisplayName}</h4>
+              <h2>End</h2>
+              <h4>{endDisplayName}</h4>
+            </div>
+          )}
+          <Map className={styles.homeMap} width="1280" height="800" center={start ? start : [51.448538, -0.355183]} zoom={12}>
             {({ TileLayer, Marker, Popup, Polyline, Circle }) => (
               <>
                 <TileLayer
                   url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
                   attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                 />
-                <Polyline positions={json && !json.error &&  json.route} color="black" />
+                <Polyline positions={route && route} color="black" />
+                {!!start && (
+                  <Marker position={start} /> 
+                )}
+                {!!end && (
+                  <Marker position={start} /> 
+                )}
                 {!data && data.map(({ lineStrings, hex, sequences }) => (
                     <>
                       <Polyline positions={processLineStrings(lineStrings)} color={hex} />

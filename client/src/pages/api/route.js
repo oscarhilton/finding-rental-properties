@@ -1,13 +1,13 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default async (req, res) => {
-    const startLatlon = [51.450931,-0.357921]
-    const endLatlon = [51.445235, -0.325506]
-
     try {
+
+        const {orig, dest} = req.body;
+
         const payload = JSON.stringify({
-            orig: startLatlon,
-            dest: endLatlon
+            orig,
+            dest
         })
 
         const route = await fetch("http://127.0.0.1:8000/route", {
